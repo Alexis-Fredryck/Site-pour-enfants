@@ -2,8 +2,7 @@
     margin: auto;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-image: url("Iconographies.html/Background_image.jpg")    
+    box-sizing: border-box;    
 }
 
 a, a:visited, a:active{
@@ -38,7 +37,7 @@ nav .profile h1{
     margin-left: 8px;
 }
 nav ul{
-    margin-left: 25%;
+    justify-content: space-between;
     list-style-type: none;
     display: flex;
 }
@@ -57,7 +56,9 @@ nav li:hover{
     transform: scale(1.4);
 }
 
-
+.pagecontent{
+        background-image: url("Iconographies.html/Background_image.jpg")
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
