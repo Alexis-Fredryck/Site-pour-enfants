@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url("Iconographies.html/fond_ecran.png")
+}
+
 a, a:visited, a:active{
   color:inherit;
 }
@@ -111,6 +115,3 @@ img{
     width: 300px;
 }
 
-body{
-    background-image: url("Iconographies.html/Background_image.jpg")
-}
