@@ -1,6 +1,32 @@
-body{
-    cursor: default;
+* {
+    margin: auto;
     margin: 0;
-    padding: 0%;
-    font-family: 'noto sans display',sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.between{
+    justify-content: space-between;
+}
+
+.card{
+    width: 300px;
+    box-shadow: 4px 4px 12px #00000025; 
+    border-radius: 16px;
+    padding: 8px;
+    font-family: 'Inter','sans-serif';
+    flex-direction: column;
+}
+
+.card img{
+    display: block;
+    width: 100%;
+}
+.card .bouton{
+   margin-bottom: 0;
 }
