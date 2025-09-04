@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url("Iconographies.html/Background_image.jpg")
+    
   }
 
 
@@ -11,7 +13,7 @@
     flex-wrap: wrap;
 }
 .between{
-    justify-content: space-between;
+    justify-content: space-evenly
 }
 
 .card{
