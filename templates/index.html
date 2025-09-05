@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site pour enfant - Kyllian/Alexis/Someia</title>
-  <link rel="stylesheet" href="style.css"> <!-- si tu veux ajouter du CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=2">  
 </head>
+<body>  
 
-<header>
+  <header>
     <nav>
         <div class="profile">
             <h1>Website</h1>
@@ -18,30 +19,31 @@
             <li><a href="gallery.html">Gallerie</a></li>
         </ul>
     </nav>
-</header>
+  </header>
+  
 
-<body>
   <div class="page content">
     <img src="" alt="">
     <h1>Welcome to the Website</h1>
     <div class="flex center">
       <div class="card">
-        <img src="Iconographies.html/Gallery.jpg" alt="">
+        <img src="{{ url_for('static', filename='image/Gallery.jpg') }}" alt="Gallery">
         <h2>Gallery</h2>
       </div>
       <div class="card">
-        <img src="Iconographies.html/learn.jpg" alt="">
+        <img src="{{ url_for('static', filename='image/learn.jpg') }}" alt="Learn">
         <h2>Stories</h2>
       </div>
       <div class="card">
-        <img src="Iconographies.html/ABC_KIDS.jpg" alt="">
+        <img src="{{ url_for('static', filename='image/ABC_KIDS.jpg') }}" alt="ABC Kids">
         <h2>Learn</h2>
       </div>
       <div class="card">
-        <img src="Iconographies.html/stories.jpg"alt="">
+        <img src="{{ url_for('static', filename='image/stories.jpg') }}" alt="Stories">
         <h2>Stories</h2>
       </div>
     </div>
   </div>
+   
 </body>
 </html>
