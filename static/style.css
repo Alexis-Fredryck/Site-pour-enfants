@@ -116,3 +116,10 @@ img{
     width: 300px;
 }
 
+.ImagesGalerie {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 10%;
+    margin-top: 2%;
+    gap: 15%;
+}
